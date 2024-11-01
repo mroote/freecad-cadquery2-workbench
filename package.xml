@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+
+  <name>freecad cadquery</name>
+
+  <description>cadquery2</description>
+
+  <version>2024.11.1</version>
+
+  <date>2024-11-01</date>
+
+  <maintainer email="shaise@gmail.com">Shai Seger</maintainer>
+
+  <license file="LICENSE">GPL-2.0-or-later</license>
+
+  <url branch="master" type="repository">https://github.com/mroote/freecad-cadquery2-workbench</url>
+
+  <url type="readme">https://github.com/mroote/freecad-cadquery2-workbench/README.md</url>
+
+  <icon>resources/CQ_Logo.svg</icon>
+
+  <content>
+    <workbench>
+      <depend optional="False" type="python">cadquery</depend>
+      <tag>cadquery</tag>
+      <classname>CadQuery2_Workbench</classname>
+      <subdirectory>./</subdirectory>
+    </workbench>
+  </content>
+
+</package>
