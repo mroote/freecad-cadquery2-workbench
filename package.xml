@@ -13,9 +13,9 @@
 
   <license file="LICENSE">Apache-2.0</license>
 
-  <url branch="master" type="repository">https://github.com/jpmlt/freecad-cadquery2-workbench</url>
+  <url branch="master" type="repository">https://github.com/mroote/freecad-cadquery2-workbench</url>
 
-  <url type="readme">https://github.com/jpmlt/freecad-cadquery2-workbench/README.md</url>
+  <url type="readme">https://github.com/mroote/freecad-cadquery2-workbench/README.md</url>
 
   <icon>resources/CQ_Logo.svg</icon>
 
