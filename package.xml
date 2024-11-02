@@ -13,7 +13,7 @@
 
   <license file="LICENSE">Apache-2.0</license>
 
-  <url branch="master" type="repository">https://github.com/mroote/freecad-cadquery2-workbench</url>
+  <url branch="test_repo" type="repository">https://github.com/mroote/freecad-cadquery2-workbench</url>
 
   <url type="readme">https://github.com/mroote/freecad-cadquery2-workbench/README.md</url>
 
