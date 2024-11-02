@@ -506,7 +506,6 @@ class Script_Commands(QObject):
     def tofreecad(self, cqObject, feature):
         # Use a temporary BREP file to get the cadquery shape
         # Use FreeCAD Home directory
-        env = os.environ
         temppath = os.environ.get("FREECAD_USER_HOME", tempfile.mkdtemp())
         temppath += '/.FreeCAD/tmp'
         
