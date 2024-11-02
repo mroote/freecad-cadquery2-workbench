@@ -1,0 +1,2 @@
++recursive-include freecad/cadquery2workbench/resources *
++recursive-include freecad/cadquery2workbench/templates *
