@@ -66,7 +66,14 @@ class CadQuery2_Workbench(Gui.Workbench):
         '''
         code which should be computed when this workbench is deactivated
         '''
-        pass
+        mw = Gui.getMainWindow()
+        dockWidgets = mw.findChildren(QDockWidget)
+        
+        for widget in dockWidgets:
+            if widget.objectName() == "Report view":
+                widget.setVisible(False)
+            elif widget.objectName() == "CadQuery Editor":
+                widget.setVisible(False)
 
 
 Gui.addWorkbench(CadQuery2_Workbench())
