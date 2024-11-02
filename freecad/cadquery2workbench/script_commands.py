@@ -516,8 +516,8 @@ class Script_Commands(QObject):
         # convert to FreeCAD Shape using BRep export/import
         filename = temppath + '/brep'
         
-        cqObject.val().exportStep(filename)
+        cqObject.val().exportBrep(filename)
         tmp_shape = Part.Shape()
-        tmp_shape.importStep(filename)
+        tmp_shape.importBrep(filename)
         
         feature.Shape = tmp_shape
